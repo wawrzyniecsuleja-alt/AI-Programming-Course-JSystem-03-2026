@@ -19,6 +19,7 @@ Po Day 5 uczestnicy mają:
   - D5-E3 Plan 30 dni: `exercises/03-exercises.md#d5-e3--plan-wdrożenia-po-kursie-30-dni`
 - Scenariusz demo na dziś: `materials/04-demo-scenarios.md#scenariusz-c--architekttech-lead-governance-cicd-i-ryzyko`
 - Failure scenario na dziś: `materials/04-demo-scenarios.md#f3--testy-przechodzą-ale-wymaganie-biznesowe-niespełnione`
+- Opcjonalny most mobile (10–15 min): `materials/research/mobile-extension-micro-support.md`
 - Dzień poprzedni: `materials/scripts/day-4-script.md`
 - Indeks materiałów (do dodania w późniejszym TODO): `materials/12-materials-index.md`
 
@@ -414,6 +415,7 @@ Tool sprawl zjada uwagę szybciej niż brak narzędzi. Jeden mocny workflow jest
 - 2 przykładowe wersje:
   - zespół Java + Jenkins + on-prem,
   - zespół bardziej cloudowy z GitHubem.
+- Opcjonalnie (dla chętnych): 10–15 min "most mobile" na bazie `materials/research/mobile-extension-micro-support.md` (bez pełnej implementacji mobile na zajęciach).
 
 ### Co wklejam na chat
 ```text
@@ -428,6 +430,7 @@ Mini-playbook po kursie:
 ### Ćwiczenie
 - Core: każdy uczestnik tworzy własny mini-playbook na 1 stronę.
 - Stretch: dopisuje sekcję „jak wyjaśnię ten plan komuś, kto ma obawy wobec AI”.
+- Opcjonalny stretch mobile (tylko jeśli grupa zgłasza potrzebę): opisz 1 flow z kursowej aplikacji w wersji mobile (ekrany + walidacje + stany błędów) wg `materials/research/mobile-extension-micro-support.md`.
 
 ### Feedback loop
 Trener wybiera kilka fragmentów i pomaga je skrócić do formy, którą rzeczywiście da się wykorzystać po kursie.
