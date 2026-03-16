@@ -178,12 +178,13 @@ Nie jest wymagane wcześniejsze doświadczenie z narzędzia AI – jedyny warune
 ---
 
 ## How to use this in NBP plan
-- Keep macro-structure aligned to these 5 days.
-- Apply Lucas constraints:
-  - Codex-first
-  - short Claude and IntelliJ comparison
-  - no OpenCode/Goose/Cursor/Zed core path
-  - explain cloud-max capabilities + on-prem local-model adaptation.
 
-## Note
-This file is a reference baseline, not a strict script. Day scripts must preserve core thematic alignment while adapting tools and depth to NBP requirements.
+- Keep macro-structure aligned to these 5 days and modules above.
+- Apply tool constraints:
+  - **Primary tools:** Codex CLI + Codex Desktop (main demo path throughout the course)
+  - **Secondary/comparison:** Claude Code CLI + Claude Desktop, IntelliJ Junie/AI Assistant
+  - **Skip entirely:** Cursor, Zed, OpenCode, Goose, Aider (do not include in demos or exercises)
+  - WezTerm as the primary terminal environment
+  - Explain cloud-max capabilities + on-prem local-model adaptation where relevant.
+- Day scripts must preserve core thematic alignment (modules, goals, SDLC flow) while adapting tools and depth to NBP requirements.
+- This file is the authoritative course description baseline. Do not abbreviate it.
