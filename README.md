@@ -1,6 +1,6 @@
-# NBP AI in Programming Course Repo
+# AI in Programming Course Repo
 
-Course workspace for NBP 5-day training.
+Course workspace for 5-day training.
 
 ## Structure
 - backend/ - Spring Boot starter app (seeded from Silky master)
