@@ -148,6 +148,24 @@ Po Day 1 uczestnicy mają:
 ### Co wklejam na chat
 - `Quiz jest anonimowy. Celem jest dobrać tempo szkolenia, nie wystawić ocenę. Jeśli coś brzmi obco — idealnie, właśnie po to tu jesteśmy.`
 
+### Dokładny flow prowadzenia quizu (minuta po minucie)
+- **09:40–09:42 (brief):** wyjaśniam zasady: anonimowo, bez ocen, celem jest kalibracja tempa.
+- **09:42–09:50 (rozwiązywanie):** uczestnicy wypełniają quiz samodzielnie; ja monitoruję tempo i przypominam, żeby nie „googlować”, tylko zaznaczać intuicję.
+- **09:50–09:56 (omówienie):** przechodzę tylko przez pytania z największym rozjazdem odpowiedzi (max 3–4 pojęcia), krótko i pozytywnie.
+- **09:56–10:00 (adaptacja):** ogłaszam, co zmieniamy dalej w Day 1 i jak to wpłynie na Day 2.
+
+### Jak omawiam wyniki (bez etykietowania „braków”)
+- Używam języka: „obszary do doprecyzowania”, nie „słabe punkty”.
+- Dla każdego niejasnego pojęcia daję **1 zdanie definicji + 1 praktyczny przykład + 1 antywzorzec**.
+- Jeśli grupa ma duży rozjazd, robię mikro-check: „kciuk w górę, jeśli już jasne; bok, jeśli potrzebny przykład”.
+- Limit omówienia: **maks. 60 min łącznie po quizie w kolejnych blokach Day 1** (zgodnie z zasadą kursu).
+
+### Macierz adaptacji w czasie rzeczywistym (co zmieniam po quizie)
+- **Jeśli >60% grupy myli token/context window:** w bloku 10:00 dokładam 5-min mikrodemo „długi prompt vs streszczenie kontekstu”.
+- **Jeśli >50% myli hallucination vs confidence:** w bloku 10:25 dokładam checklistę „claim → source → verify” przed pierwszym taskiem.
+- **Jeśli >40% nie rozróżnia agent vs assistant/autocomplete:** w bloku 11:15 wzmacniam porównanie narzędzi 1 konkretnym scenariuszem z pracy bankowej.
+- **Jeśli większość jest mocna w podstawach:** skracam teorię o 5–10 min i wydłużam praktykę (więcej czasu na D1-E1 / D1-E2).
+
 ### Ćwiczenie
 - Core: uczestnicy rozwiązują quiz.
 - Stretch: chętni zaznaczają, które pytanie było najbardziej mylące i dlaczego.
@@ -156,10 +174,10 @@ Po Day 1 uczestnicy mają:
 - Doświadczenie: każdy konfrontuje intuicję z podstawami.
 - Refleksja: które pojęcia są najmniej stabilne w grupie?
 - Konceptualizacja: dobra praca z AI zaczyna się od dobrych modeli mentalnych.
-- Testowanie: w dalszych blokach sprawdzamy, czy te pojęcia przekładają się na lepsze decyzje.
+- Testowanie: natychmiast adaptujemy nacisk w kolejnych blokach i sprawdzamy efekt po południu.
 
 ### Szacowany czas
-- 20 min
+- 20 min (z decyzją adaptacyjną zamkniętą do 10:00)
 
 ## 10:00–10:25 — Mission kickoff: po co ten tydzień i po co ten workflow
 ### Energy hook / humor cue
