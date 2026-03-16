@@ -1,104 +1,104 @@
-# Day 1 — Anonymous AI Basics Quiz (Zoom)
+# Dzień 1 — Anonimowy quiz wprowadzający do AI (Zoom)
 
-## Purpose
-- Quick calibration of participant baseline.
-- Diagnose what to emphasize during Day 1–2.
-- Make the opening fun and engaging.
+## Cel
+- Szybka diagnoza poziomu startowego uczestników.
+- Ustalenie, które obszary wymagają mocniejszego akcentu w dniach 1–2.
+- Rozpoczęcie szkolenia w lekkiej, ale merytorycznej formule.
 
 ## Format
-- Anonymous poll/quiz in Zoom (or Mentimeter/Kahoot if preferred).
-- 12 questions total.
-- Suggested timing: 12–15 min quiz + 8–10 min debrief.
+- Anonimowa ankieta lub quiz w Zoomie (alternatywnie Mentimeter/Kahoot).
+- Łącznie 12 pytań.
+- Sugerowany czas: 12–15 minut na quiz + 8–10 minut omówienia.
 
-## Scoring bands (for trainer)
-- 0–4 correct: beginner baseline (slow down fundamentals)
-- 5–8 correct: mixed baseline (keep dual-track core/stretch)
-- 9–12 correct: advanced baseline (accelerate to architecture + guardrails)
-
----
-
-## Questions (with options)
-
-### Q1. What is a token in LLM context?
-A) A full sentence
-B) A unit of text used by the model tokenizer ✅
-C) A secret API key
-D) A 3D object from blockchain
-
-### Q2. What is context window?
-A) IDE popup with docs
-B) Max amount of text model can consider in one request ✅
-C) Browser tab history
-D) Fancy word for prompt engineering
-
-### Q3. Autoregression means:
-A) Model predicts next token based on previous tokens ✅
-B) Model runs your regression tests
-C) Model rewrites code in reverse
-D) AI does code reviews on autopilot
-
-### Q4. Hallucination in LLM output is:
-A) Desired creative mode
-B) Confidently generated incorrect information ✅
-C) Compiler warning
-D) Network timeout
-
-### Q5. Agent vs assistant vs chat vs autocomplete (best summary):
-A) They are all the same thing
-B) Agent can plan/use tools; assistant/chat are conversational; autocomplete suggests local code continuation ✅
-C) Chat is always smarter than agent
-D) Autocomplete can deploy to production by itself
-
-### Q6. System prompt usually:
-A) Sets behavior/role and constraints for the model ✅
-B) Is optional decoration
-C) Is the same as user message
-D) Is only for image generation
-
-### Q7. Attention decay in long context usually means:
-A) Model remembers start/middle/end equally
-B) Model may degrade at using some long-range context details ✅
-C) CPU overheats
-D) Prompt gets encrypted
-
-### Q8. Alignment is mainly about:
-A) Left-aligning markdown text
-B) Model behavior to follow intended values/safety/instructions ✅
-C) Git branch naming
-D) SQL index optimization
-
-### Q9. Best first defense against unsafe AI-generated SQL:
-A) Trust the model
-B) Read-only rules + validation/guardrails before execution ✅
-C) Add emojis to prompt
-D) Ask model to "be careful"
-
-### Q10. Why sandboxing matters in coding agents?
-A) Looks professional on slides
-B) Limits blast radius and improves safe autonomy ✅
-C) Makes token usage zero
-D) Disables all file access forever
-
-### Q11. Which is truest about WSL and isolation?
-A) WSL always provides full security isolation by itself
-B) WSL is environment compatibility; isolation depends on additional controls ✅
-C) WSL only works with Python
-D) WSL is deprecated
-
-### Q12. Fun but useful: what usually improves AI coding outcomes most?
-A) Longer prompts always
-B) Better task decomposition + constraints + acceptance criteria ✅
-C) Switching tools every 15 min
-D) More browser tabs
+## Progi punktowe (dla trenera)
+- 0–4 poprawne: poziom początkujący (warto zwolnić i mocniej osadzić fundamenty)
+- 5–8 poprawnych: poziom mieszany (utrzymać główny tok, ale zostawić miejsce na doprecyzowanie podstaw)
+- 9–12 poprawnych: poziom zaawansowany (można szybciej przejść do architektury, ryzyk i praktyki)
 
 ---
 
-## Trainer debrief script (short)
-- "To nie jest test na ocenę — to radar, żeby dobrać tempo i poziom." 
-- "Jeśli coś było niejasne, super — to znaczy, że mamy co odczarować i przećwiczyć." 
-- "Nasz cel: po tym tygodniu każdy z Was czuje kontrolę, nie chaos."
+## Pytania (z odpowiedziami)
 
-## Adaptation rules after quiz
-- If low score cluster: spend more time on context window, hallucinations, roles of tools, safe SQL guardrails.
-- If mid cluster: keep planned pace, add quick recaps every 60–90 min.
-- If high cluster: shorten theory blocks and increase hands-on delegation patterns earlier.
+### P1. Czym jest token w kontekście modeli językowych?
+A) Zawsze całym słowem zapisanym między spacjami
+B) Podstawową jednostką tekstu przetwarzaną przez tokenizer modelu ✅
+C) Tajnym kluczem potrzebnym do uruchomienia modelu
+D) Nazwą limitu zapytań w API
+
+### P2. Co oznacza pojęcie okna kontekstu?
+A) Maksymalną liczbę znaków, które zmieszczą się w jednym promptcie
+B) Zakres tekstu, który model może brać pod uwagę w pojedynczym wywołaniu ✅
+C) Historię wszystkich rozmów użytkownika z danego tygodnia
+D) Tryb, w którym model pamięta wszystko bez limitu
+
+### P3. Co najlepiej opisuje autoregresyjny sposób działania LLM?
+A) Model generuje całą odpowiedź naraz, a potem ją skraca
+B) Model przewiduje kolejne tokeny na podstawie wcześniejszego kontekstu ✅
+C) Model zawsze porównuje odpowiedź z bazą faktów przed wysłaniem
+D) Model najpierw uruchamia testy regresji, a dopiero potem odpowiada
+
+### P4. Czym jest halucynacja modelu?
+A) Sytuacją, w której model generuje błędną informację w przekonującym stylu ✅
+B) Każdą odpowiedzią, która jest zbyt kreatywna
+C) Błędem połączenia z internetem podczas generowania
+D) Przypadkiem, w którym model odmawia odpowiedzi
+
+### P5. Które porównanie najlepiej oddaje różnicę między agentem, asystentem czatowym i autouzupełnianiem kodu?
+A) To w praktyce trzy nazwy na to samo
+B) Agent może planować i używać narzędzi; asystent głównie prowadzi rozmowę; autouzupełnianie podpowiada lokalną kontynuację ✅
+C) Autouzupełnianie kodu jest zawsze bardziej autonomiczne niż agent
+D) Asystent czatowy samodzielnie wdraża kod, a agent tylko odpowiada na pytania
+
+### P6. Jaką rolę najczęściej pełni prompt systemowy?
+A) Definiuje rolę modelu, zasady zachowania i ograniczenia odpowiedzi ✅
+B) Służy wyłącznie do ustawienia języka interfejsu
+C) Jest kopią pierwszej wiadomości użytkownika
+D) Ma znaczenie tylko w generatorach obrazów
+
+### P7. Co w praktyce oznacza spadek jakości uwagi przy bardzo długim kontekście?
+A) Model może gorzej wykorzystywać część informacji z odległych fragmentów tekstu ✅
+B) Model automatycznie kompresuje prompt bez utraty znaczenia
+C) Długi prompt powoduje przegrzanie procesora
+D) Im dłuższy kontekst, tym odpowiedź zawsze staje się dokładniejsza
+
+### P8. Czego dotyczy dostosowanie modelu do zasad i intencji użytkownika?
+A) Ustawienia wyrównania tekstu w interfejsie czatu
+B) Dopasowania zachowania modelu do założonych zasad, intencji i wymagań bezpieczeństwa ✅
+C) Synchronizacji modelu z kalendarzem zespołu
+D) Automatycznego porządkowania logów po wdrożeniu
+
+### P9. Jaka jest najlepsza pierwsza linia obrony przed niebezpiecznym SQL wygenerowanym przez AI?
+A) Poprosić model, żeby pisał ostrożniej
+B) Ograniczyć uprawnienia, stosować walidację i zabezpieczenia przed wykonaniem zapytania ✅
+C) Pozwolić uruchamiać tylko bardzo długie zapytania
+D) Dodać do promptu zdanie „to środowisko produkcyjne”
+
+### P10. Dlaczego sandboxing jest ważny w agentach programistycznych?
+A) Bo dzięki temu odpowiedzi modelu brzmią bardziej technicznie
+B) Bo ogranicza możliwe skutki błędu i pozwala bezpieczniej delegować działania ✅
+C) Bo całkowicie eliminuje potrzebę przeglądu kodu przez człowieka
+D) Bo uniemożliwia modelowi jakikolwiek dostęp do plików i narzędzi
+
+### P11. Które stwierdzenie o WSL i izolacji jest najbardziej trafne?
+A) WSL samo z siebie gwarantuje pełną izolację bezpieczeństwa
+B) WSL poprawia zgodność środowiska, ale poziom izolacji zależy od dodatkowych mechanizmów kontrolnych ✅
+C) WSL działa wyłącznie dla projektów w Pythonie
+D) WSL zostało wycofane i nie powinno być już używane
+
+### P12. Co zwykle najbardziej poprawia efekty pracy z AI przy zadaniach technicznych?
+A) Coraz dłuższy prompt, nawet jeśli zadanie pozostaje nieprecyzyjne
+B) Dobre rozbicie zadania, jasne ograniczenia i konkretne kryteria akceptacji ✅
+C) Częste zmienianie narzędzia, żeby „odświeżyć” model
+D) Trzymanie otwartych 27 kart, bo model lubi ambitne środowisko pracy
+
+---
+
+## Krótkie omówienie po quizie
+- "To nie jest test na ocenę, tylko szybki radar pomagający dobrać tempo i poziom pracy."
+- "Jeśli część pytań była nieoczywista, to dobrze — właśnie po to tu jesteśmy, żeby te rzeczy uporządkować i przećwiczyć."
+- "Celem tego tygodnia jest nie tylko poznać narzędzia, ale umieć używać ich świadomie i bezpiecznie."
+
+## Jak dostosować prowadzenie po quizie
+- Jeśli dominują niskie wyniki: poświęć więcej czasu na okno kontekstu, halucynacje, role narzędzi i zabezpieczenia dla SQL.
+- Jeśli wyniki są mieszane: utrzymaj planowany rytm, ale dodawaj krótkie podsumowania co 60–90 minut.
+- Jeśli grupa wypada bardzo dobrze: skróć bloki teoretyczne i szybciej przejdź do architektury oraz ćwiczeń praktycznych.
